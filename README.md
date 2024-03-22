@@ -1,2 +1,14 @@
 # PCAP_Lab
-PCAP Analysis Lab
+
+## Objective
+
+TBD
+
+### Skills Learned
+
+TBD
+
+### Tools Used
+
+- Wireshark
+- NMAP
