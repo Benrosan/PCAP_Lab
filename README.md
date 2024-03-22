@@ -12,3 +12,8 @@ TBD
 
 - Wireshark
 - NMAP
+
+### Steps
+
+**1.** Created custom columns and changed format to make data more legible.
+**2.** Tried filtering for DHCP and NetBios frames to find host name
