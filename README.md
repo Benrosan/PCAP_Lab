@@ -50,6 +50,15 @@ I checked the SHA256 hash value of the file and uploaded it to TotalVirus.com. I
 ###
 Checking the various file names for additional info I noticed the following:
 ###
+![2024-03-25 11_09_37-Kali Linux on GENIE - Virtual Machine Connection](https://github.com/Benrosan/PCAP_Lab/assets/160042310/f7da97bd-c7c4-42a8-b10e-b73a5beede43)
+####
+I then conducted a search for the **IcedID** malware in the MITRE database. It returned the following:
+###
+![2024-03-25 11_48_07-IcedID, Software S0483 _ MITRE ATT CK®](https://github.com/Benrosan/PCAP_Lab/assets/160042310/89ed2276-b31d-4cef-82eb-c8725b3cf234)
+###
+Among other things, IceID uses HTTPS to reach out to C2 servers.
+
+
 
 
 
