@@ -8,6 +8,8 @@ Conduct PCAP analysis via Wireshark and provide a report on attack vectors used 
 
 - PCAP Analysis
 - Detailed understanding of web traffic components as they relate to the OSI model
+- Improved overall analytical skills
+- Better understanding of encryption protocols and PKI framework
 
   
 ### Tools Used
