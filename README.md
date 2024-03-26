@@ -2,12 +2,14 @@
 
 ## Objective
 
-TBD
+Conduct PCAP analysis via Wireshark and provide a report on attack vectors used and various IOCs associated with malware infection.
 
 ### Skills Learned
 
-TBD
+- PCAP Analysis
+- Detailed understanding of web traffic components as they relate to the OSI model
 
+  
 ### Tools Used
 
 - Wireshark
@@ -57,6 +59,17 @@ I then conducted a search for the **IcedID** malware in the MITRE database. It r
 ![2024-03-25 11_48_07-IcedID, Software S0483 _ MITRE ATT CK®](https://github.com/Benrosan/PCAP_Lab/assets/160042310/89ed2276-b31d-4cef-82eb-c8725b3cf234)
 ###
 Among other things, IceID uses HTTPS to reach out to C2 servers.
+###
+**6.** Another HTTP Get request was made to this potentially malicious domain.
+###
+![2024-03-26 10_39_55-2022-03-21-traffic-analysis-exercise pcap](https://github.com/Benrosan/PCAP_Lab/assets/160042310/5158984f-4213-4d92-a2c7-4d0b0e0cf747)
+###
+The file downloaded was .der file, indicating it was a certificate. It's possible that this may be some sort of self-signed certificate designed to facilitate a Man-in-the-Middle attack via proxies, which would be consistent with some IcedID attack vectors.<br>
+###
+**7.** Upon further investigation, it looks like the host was redirected to various malicious sites, which ultimately led to the downloading of the certificates.
+###
+![2024-03-26 10_58_37-2022-03-21-traffic-analysis-exercise pcap](https://github.com/Benrosan/PCAP_Lab/assets/160042310/42b0efed-c278-4b48-8cf8-94e02e8d8498)
+
 
 
 
